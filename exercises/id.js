@@ -8,6 +8,17 @@
 
 // Your code:
 
+function id(strict) {
+    return 1;
+};
+{
+    return 5;
+};
+{ return 'pouet' };
+{
+    return assert;
+};
+
 //* Begin of tests
 const assert = require('assert');
 
